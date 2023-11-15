@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "coffee_order",
+      "patterns": [
+        "Can I order a coffee?",
+        "I'd like to order a coffee please.",
+        "What kind of coffee do you recommend?"
+      ],
+      "responses": [
+        "Sure thing! What kind of coffee would you like?",
+        "Of course! Would you like a hot or iced coffee?",
+        "Our most popular coffee is our signature blend. Would you like to try it?",
+        "Certainly, we have a variety of coffee options available"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What's on the menu?",
+        "What do you serve?",
+        "Can you show me the menu?"
+      ],
+      "responses": [
+        "We serve a variety of drinks, including coffee, tea, and hot chocolate. Would you like me to send you our menu?",
+        "Our menu includes a wide selection of beverages, from classic lattes to specialty drinks. I can send it to you if you'd like.",
+        "Sure! Our menu features a range of drinks and snacks, including vegan and gluten-free options. Would you like to see it?",
+        "We also offer a selection of delicious pastries and sandwiches, perfect for a quick bite or a full meal. Let me know if you'd like me to include that in the menu I send you.",
+        "Our menu also features seasonal drinks and specials that change throughout the year. Be sure to check in with us often to see what's new!"
+      ]
+    },
+    {
+      "tag": "sizes",
+      "patterns": [
+        "What sizes do you offer?",
+        "Can I get a large coffee?",
+        "Do you have a small size?"
+      ],
+      "responses": [
+        "We offer small, medium, and large sizes for our coffee drinks.",
+        "Yes, you can definitely get a large coffee. Would you like any flavoring or milk?",
+        "Absolutely, we have a small size. Would you like anything else with that?",
+        "In addition to our standard small, medium, and large sizes, we also offer an extra-large size for those who need an extra boost of caffeine.",
+        "If you're not sure which size to order, our baristas can help guide you based on your preference and the type of drink you're getting."
+      ]
+    },
+    {
+      "tag": "flavors",
+      "patterns": [
+        "What kind of flavors do you have?",
+        "Do you have any seasonal flavors?",
+        "Can I get a vanilla latte?"
+      ],
+      "responses": [
+        "We have a variety of flavors such as vanilla, caramel, and hazelnut.",
+        "Yes, our seasonal flavor right now is pumpkin spice.",
+        "Definitely, we can make you a vanilla latte. What size would you like?",
+        "We also have a selection of sugar-free and dairy-free flavors available for those with dietary restrictions or preferences. we'll be happy to recommend some options for you."
+      ]
+    },
+    {
+      "tag": "specials",
+      "patterns": [
+        "What are your specials?",
+        "Do you have any deals?",
+        "What's on sale today?"
+      ],
+      "responses": [
+        "Today's specials are the pumpkin spice latte and the blueberry scone.",
+        "We have a loyalty program where you can earn a free coffee after every 10 purchases.",
+        "If you order a breakfast sandwich and a coffee, you can get $1 off your total order."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When do you open and close?",
+        "Are you open now?"
+      ],
+      "responses": [
+        "Our hours are from 7am to 7pm, Monday through Saturday, and from 8am to 6pm on Sundays.",
+        "We open at 7am and close at 7pm on weekdays and Saturdays, and at 8am to 6pm on Sundays.",
+        "We're open now! Our hours are from 7am to 7pm on weekdays and Saturdays, and from 8am to 6pm on Sundays."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does a latte cost?",
+        "What are your prices like?",
+        "Do you have any specials or discounts?"
+      ],
+      "responses": [
+        "Our prices vary depending on the drink, but our lattes start at $3.50. We do offer discounts for students and seniors.",
+        "We strive to keep our prices competitive, while still using high-quality ingredients. Our prices start at $3.50 for a latte. We also have specials and discounts throughout the year, so be sure to check our website for details.",
+        "Our prices are affordable and reflectthe quality of our ingredients and the care we put into every drink. A latte starts at $3.50, and we do offer specials and discounts on certain drinks from time to time. You can check our website or social media pages for current promotions."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "How can I pay?",
+        "Do you accept credit cards?",
+        "Is there an ATM nearby?"
+      ],
+      "responses": [
+        "We accept cash, credit cards, and Apple Pay.",
+        "Yes, we accept all major credit cards.",
+        "I'm sorry, there isn't an ATM nearby but we do accept credit cards."
+      ]
+    },
+    {
+      "tag": "pickup",
+      "patterns": [
+        "Do you offer pickup?",
+        "Can I place an order for pickup?",
+        "What's the process for pickup?"
+      ],
+      "responses": [
+        "Yes, we offer pickup for all orders.",
+        "Definitely, you can place an order for pickup either online or in-store.",
+        "After you place your order, we'll send you a confirmation email with instructions on when and where to pick it up."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Can you give me directions?"
+      ],
+      "responses": [
+        "We're located at 123 Main Street in downtown.",
+        "Our address is 123 Main Street, downtown.",
+        "We're right in the heart of downtown, at 123 Main Street."
+      ]
+    }
+  ]
+}
